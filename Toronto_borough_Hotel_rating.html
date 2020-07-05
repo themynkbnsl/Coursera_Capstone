@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_646b6691c31f424bbfa91bebe7eeaa14 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_646b6691c31f424bbfa91bebe7eeaa14" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_646b6691c31f424bbfa91bebe7eeaa14 = L.map(
+                                  'map_646b6691c31f424bbfa91bebe7eeaa14',
+                                  {center: [43.6534817,-79.3839347],
+                                  zoom: 12,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_138c474aead049e29c52efb1fd7aa7d9 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_646b6691c31f424bbfa91bebe7eeaa14);
+        
+    
+
+            var marker_9950dc85dfa2420789cb4de3649d06ff = L.marker(
+                [43.7332825,-79.4197497],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_646b6691c31f424bbfa91bebe7eeaa14);
+            
+    
+            var popup_fc3487e925e54027ac9d5888265287c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_91093e87f7624458b1661e6e5a7d7940 = $('<div id="html_91093e87f7624458b1661e6e5a7d7940" style="width: 100.0%; height: 100.0%;">North York(6.35)</div>')[0];
+                popup_fc3487e925e54027ac9d5888265287c3.setContent(html_91093e87f7624458b1661e6e5a7d7940);
+            
+
+            marker_9950dc85dfa2420789cb4de3649d06ff.bindPopup(popup_fc3487e925e54027ac9d5888265287c3);
+
+            
+        
+    
+
+            var marker_8835e99110134348b1f27970540eb6a7 = L.marker(
+                [43.6369656,-79.61581899999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_646b6691c31f424bbfa91bebe7eeaa14);
+            
+    
+            var popup_18a71be0bfa14856a739b204f943f742 = L.popup({maxWidth: '300'});
+
+            
+                var html_8cc51eeb4ebf41eba5572c3b8040c5ef = $('<div id="html_8cc51eeb4ebf41eba5572c3b8040c5ef" style="width: 100.0%; height: 100.0%;">Mississauga(6.933333333333334)</div>')[0];
+                popup_18a71be0bfa14856a739b204f943f742.setContent(html_8cc51eeb4ebf41eba5572c3b8040c5ef);
+            
+
+            marker_8835e99110134348b1f27970540eb6a7.bindPopup(popup_18a71be0bfa14856a739b204f943f742);
+
+            
+        
+    
+
+            var marker_1217fba8d9c14219a7ee46b32c9efb50 = L.marker(
+                [43.7043244,-79.3887901],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_646b6691c31f424bbfa91bebe7eeaa14);
+            
+    
+            var popup_51d24bc84e394c9b9ae66518476aea27 = L.popup({maxWidth: '300'});
+
+            
+                var html_e509355d8a9740dca81ceec6bbf2e21c = $('<div id="html_e509355d8a9740dca81ceec6bbf2e21c" style="width: 100.0%; height: 100.0%;">Central Toronto(7.025)</div>')[0];
+                popup_51d24bc84e394c9b9ae66518476aea27.setContent(html_e509355d8a9740dca81ceec6bbf2e21c);
+            
+
+            marker_1217fba8d9c14219a7ee46b32c9efb50.bindPopup(popup_51d24bc84e394c9b9ae66518476aea27);
+
+            
+        
+    
+
+            var marker_9263b5941298436a92c0864e83d1aa47 = L.marker(
+                [43.6616083,-79.46476329999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_646b6691c31f424bbfa91bebe7eeaa14);
+            
+    
+            var popup_3473bd5ec0a741dcb6f613e6de9c6189 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ab54ea84cc2435980a927f41917f24f = $('<div id="html_7ab54ea84cc2435980a927f41917f24f" style="width: 100.0%; height: 100.0%;">West Toronto(8.2)</div>')[0];
+                popup_3473bd5ec0a741dcb6f613e6de9c6189.setContent(html_7ab54ea84cc2435980a927f41917f24f);
+            
+
+            marker_9263b5941298436a92c0864e83d1aa47.bindPopup(popup_3473bd5ec0a741dcb6f613e6de9c6189);
+
+            
+        
+    
+
+            var marker_833ca56c448946c9a79ab64108d05a3e = L.marker(
+                [43.6579524,-79.3873826],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_646b6691c31f424bbfa91bebe7eeaa14);
+            
+    
+            var popup_18f68eb146cc4ff4a68c709af1d22ebf = L.popup({maxWidth: '300'});
+
+            
+                var html_5f2357161ccd43b5a294408b68582890 = $('<div id="html_5f2357161ccd43b5a294408b68582890" style="width: 100.0%; height: 100.0%;">Downtown Toronto(8.377142857142859)</div>')[0];
+                popup_18f68eb146cc4ff4a68c709af1d22ebf.setContent(html_5f2357161ccd43b5a294408b68582890);
+            
+
+            marker_833ca56c448946c9a79ab64108d05a3e.bindPopup(popup_18f68eb146cc4ff4a68c709af1d22ebf);
+
+            
+        
+    
+
+            var marker_ac30f828e36a405bb72cf1d2a8965799 = L.marker(
+                [43.6795571,-79.352188],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_646b6691c31f424bbfa91bebe7eeaa14);
+            
+    
+            var popup_93fdeb7db7d344e08d6610af7e28e099 = L.popup({maxWidth: '300'});
+
+            
+                var html_12a6a61a41124a4f8d39aa67ca043ffb = $('<div id="html_12a6a61a41124a4f8d39aa67ca043ffb" style="width: 100.0%; height: 100.0%;">East Toronto(9.0)</div>')[0];
+                popup_93fdeb7db7d344e08d6610af7e28e099.setContent(html_12a6a61a41124a4f8d39aa67ca043ffb);
+            
+
+            marker_ac30f828e36a405bb72cf1d2a8965799.bindPopup(popup_93fdeb7db7d344e08d6610af7e28e099);
+
+            
+        
+    
+            var feature_group_d929e8afe0da413fa12a4975e201114e = L.featureGroup(
+                ).addTo(map_646b6691c31f424bbfa91bebe7eeaa14);
+        
+    
+            var circle_marker_5aec8e72c4de4dd99382df5d519b3733 = L.circleMarker(
+                [43.7332825,-79.4197497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_d929e8afe0da413fa12a4975e201114e);
+            
+    
+            var circle_marker_7bc1ac21a5714d59b75243b18a55b23f = L.circleMarker(
+                [43.6369656,-79.61581899999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_d929e8afe0da413fa12a4975e201114e);
+            
+    
+            var circle_marker_c98030d017304f1e9aeec2e2beeae409 = L.circleMarker(
+                [43.7043244,-79.3887901],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_d929e8afe0da413fa12a4975e201114e);
+            
+    
+            var circle_marker_3e9632fb8d2f442d8ac4d7b6c06ab8de = L.circleMarker(
+                [43.6616083,-79.46476329999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_d929e8afe0da413fa12a4975e201114e);
+            
+    
+            var circle_marker_aee735b9cc2645bd931d72cf22ac3535 = L.circleMarker(
+                [43.6579524,-79.3873826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_d929e8afe0da413fa12a4975e201114e);
+            
+    
+            var circle_marker_b3321927bde94668a9e9b53086bb8556 = L.circleMarker(
+                [43.6795571,-79.352188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.6,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_d929e8afe0da413fa12a4975e201114e);
+            
+</script>
